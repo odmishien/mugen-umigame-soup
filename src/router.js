@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
-import App from "./App";
-
+import Home from "./views/Home";
+import Ask from "./views/Ask";
 Vue.use(Router);
 
 export default new Router({
@@ -10,7 +10,12 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: App,
+      component: Home,
     },
+    {
+      path: "/ask",
+      name: "ask",
+      component: Ask,
+    }
   ],
 });
