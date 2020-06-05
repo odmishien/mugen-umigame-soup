@@ -18,4 +18,7 @@ export default {
 </script>
 
 <style>
+  input {
+    font-size: 16px;
+  }
 </style>

@@ -4,6 +4,3 @@
     </b-jumbotron>
   </div>
 </template>
-<script>
-export default {};
-</script>

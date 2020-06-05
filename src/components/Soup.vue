@@ -67,7 +67,7 @@ export default {
     addQuestion(content) {
       let answer = this.answerQuestion();
       this.questions.push({ content: content, answer: answer });
-      this.questionContent = '';
+      this.questionContent = "";
     },
     answerQuestion() {
       return Math.random() >= 0.5;
